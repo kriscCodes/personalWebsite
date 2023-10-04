@@ -1,0 +1,270 @@
+.navbar{
+    display: flex;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.navName{
+    font-size: 2rem;
+}
+
+.navigation{
+    width: 100%;
+}
+
+.nav-element{
+    float: right;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+.homeContent{
+    display: flex;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-evenly;
+    
+}
+
+.homeLinks{
+    height: 100%;
+    width: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.git{
+    margin-right: 5%;
+}
+
+
+
+
+.homeText{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTextElements{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.homeTextElements h1, h3, h5{
+    color: #333333;
+}
+
+
+
+.homePic{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    
+}
+
+.homePic img{
+    border-radius: 50%;
+    width: 70%;
+    height: 40%;
+}
+
+#home{
+    height: 95vh;
+}
+
+.aboutPage{
+    height: 95vh;
+    
+}
+
+.aboutContent{
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.aboutLeft{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.aboutRight{
+    height: 100%;
+    width: 50%;
+}
+
+.aboutPic img{
+    border-radius: 3%;
+    width: 50%;
+}
+
+.aboutPic{
+    display: flex;
+    justify-content: center;
+    margin-top: 19%;
+}
+
+.aboutText{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutText p{
+    text-align: justify;
+    font-size: 1.5rem;
+    height: 50%;
+}
+
+.recentExperience h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.recentExperience p{
+    font-size: 1.5rem;
+    height: 50%;
+}
+
+.recentExperience{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 45%;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.aboutResume{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skillsPage{
+    height: 95vh;
+}
+.skillsContent{
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skillsCard{
+    height: 50%;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.skillsCardHeader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5%;
+}
+
+.skillsCardBody{
+    display: flex;
+    justify-content: center;
+    height: 85%;
+    overflow: hidden;
+}
+
+.jobSkills{
+    width: 30%;
+    text-align: center;
+}
+
+.elm{
+    margin-bottom: 15%;
+    font-size: 1rem;
+}
+
+#projects{
+    height: 95vh;
+}
+
+.projectsContent{
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectsCard{
+    max-width: 45%;
+    height: 65%;
+}
+
+
+
+
+
+
+
+.projectsCardImage img{
+    max-width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+}
+
+
+
+.footerContent{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footerName h1{
+    text-align: center;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.resumeBtn{
+    height: 50px;
+    width: 150%;
+    border-radius: 20%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    width: 100%;
+    background-color: "#fafafa";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Example for sections */
+section {
+  padding: 0; /* Reset padding */
+  margin: 0; /* Reset margin */
+}
