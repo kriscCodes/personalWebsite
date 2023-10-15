@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/f7464d4427.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="mainContainer">
+        <div class="sidebar">
+            
+            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
+            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
+            
+        </div>
+        <div id="hero">
+            <div class="heroContent">
+                <div class="image">
+                    <img src="unnamed.jpg" alt="">
+                </div>
+                
+                <div class="textContent">
+                    <div class="text">
+                        <h2 class="text-item one">Hi there! I'm<h2>                   
+                        <h1 class="text-item">Kristopher Coca</h1>
+                        <p class="text-item">I'm a developer with a focus on web applications. I primarily work with JavaScript but love to explore other technologies.</p>
+                        <div class="buttons">
+                            <a href="Portfolio_Kristopher_Resume.pdf" target="_blank"><button>Resume</button></a>
+                            <a href="https://www.linkedin.com/in/kristophercoca04/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #902bf5;"></i></a>
+                            <a href="https://github.com/kriscCodes" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #902bf5;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutContainer">
+        <div class="sidebar">
+            
+            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
+            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
+            
+        </div>
+
+        <div id="infoCards">
+            <div id="experiences">
+                <div class="card">
+                    <h2>Recent Experiences</h2>
+                    <p>Currently, I am learning ReactJS via Code Path as a student on the Web Development track. Additionally, over the last 2 summers I've had the pleasure of working as a Teaching Assistant at All Star Code. I taught students how to use technologies such as HTML, CSS, JavaScript, NodeJs, FireBase, and Git to build and deploy full stack web applications </p>
+                </div>
+            </div>
+            <div id="skills">
+                <div class="card">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>NodeJs</li>
+                        <li>FireBase</li>
+                        <li>Python</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projectsContent">
+        <div class="sidebar">
+            
+            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
+            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
+            
+        </div>
+
+        <div id="projectsContainer">
+          <div class="cardContainer">
+            <div class="projectCard">
+                <i class="fa-brands fa-react fa-2xl" style="color: #050505;"></i>
+                <h2>Cat Discovery</h2>
+                <p>Designed and developed a cat discovery application using React and the CatFinder API that lets users discover cats and filter by traits they don't like.</p>
+            </div>
+            <div class="projectCard">
+                <i class="fa-brands fa-react fa-2xl" style="color: #050505;"></i>
+                <h2>Cluster Analysis</h2>
+                <p>Querried and manipulated a massive carbon emission data set using techonologies such as Python, Sql, Azure, and the Pandas library.</p>
+            </div>
+            <div class="projectCard">
+                <i class="fa-brands fa-react fa-2xl" style="color: #050505;"></i>
+                <h2>Bionic Sources</h2>
+                <p>Lead four students in developing a web app that tracks COVID-19 stats in all 50 US states using the Covid Act Now REST API in HTML, CSS, and JavaScript. </p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div id="formContainer">
+        <div class="sidebar">
+            
+            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
+            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
+        </div>
+
+        <div id="emailContent">
+            <form action="https://formspree.io/f/mnqklboz" method="POST">
+                <h3>Get In Touch!</h3>
+                <input type="email" name="email" placeholder="Your E-mail" required>
+                <textarea name="message" rows="4" placeholder="I would love to set up a time to talk!"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
