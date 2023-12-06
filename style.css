@@ -8,12 +8,41 @@ html, body{
 
 }
 
-#mainContainer{
-    height: 100%;
-    width: 100%;
-    display: flex;
+a {
+    text-decoration: underline;
+    color:  #902bf5;
+    cursor: pointer;
 }
 
+
+.sm-nav {
+    display: none;
+    background-color: #902bf5;
+    height: 5%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+}
+
+.container { 
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;   
+}
+
+.content {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    margin-left: 5%;
+    flex-wrap: wrap;
+
+}
 
 .sidebar{
     width: 5%;
@@ -23,13 +52,8 @@ html, body{
     justify-content: space-evenly;
     align-items: center;
     background-color: #902bf5;
-    
-}
-
-
-#hero{
-    width: 95%;
-    background-color: #F7F7F7;
+    position: fixed;
+    min-width: 7.5vh;    
 }
 
 .heroContent{
@@ -94,20 +118,6 @@ button{
 
 /* About Cards */
 
-#aboutContainer{
-    height: 100%;
-    width: 100%;
-    background-color: #F7F7F7;
-    display: flex;
-}
-
-#infoCards{
-    width: 95%;
-    height: 100%;
-    display: flex;
-}
-
-
 #experiences{
     display: flex;
     justify-content: center;
@@ -124,12 +134,16 @@ button{
     width: 50%;
 }
 
+
+
 ul{
     list-style: none;
 }
 
+
+
 .card{
-    width: 70%;
+    width: 50%;
     height: 50%;
     border: 1px solid #E5E5E5;
     border-radius: 2%;
@@ -145,21 +159,6 @@ ul{
 .card p{
     margin-left: 5%;
     margin-right: 5%;
-}
-
-#projectsContent{
-    height: 100%;
-    width: 100%;
-    background-color: #F7F7F7;
-    display: flex;
-}
-
-#projectsContainer{
-    width: 95%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cardContainer{
@@ -187,20 +186,6 @@ ul{
     margin-right: 5%;
 }
 
-#formContainer{
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
-#emailContent{
-    height: 100%;
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F7F7F7;
-}
 
 form{
     background-color: #ffff;
@@ -233,4 +218,67 @@ form button{
     border: 0;
     outline: none;
     cursor: pointer;
+}
+
+
+/* Add more media queries as needed for other screen sizes */
+@media (max-width: 1100px) {
+
+    .sidebar{
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .heroContent{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textContent {
+        order: 1;
+        width: 100%;
+        height: 40%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text-item {
+        text-align: center;
+
+    }
+
+    .text p {
+        display: none;
+    }
+
+    .image {
+        order: 2;
+        width: 100%;
+    }
+
+    .image img {
+        height: 100%;
+        width: 35%;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    #mainContainer{
+        display: block;
+    }
+
+
+
+    /* .content :nth-child(2) {
+        flex-wrap: wrap;
+    }  */
 }
