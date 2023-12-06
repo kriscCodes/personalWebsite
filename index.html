@@ -10,7 +10,14 @@
     <script src="https://kit.fontawesome.com/f7464d4427.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="mainContainer">
+    <div id="mainContainer" class="container">
+        
+        <div class="sm-nav">
+            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
+            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
+            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
+        </div>
         <div class="sidebar">
             
             <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
@@ -19,7 +26,7 @@
             <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
             
         </div>
-        <div id="hero">
+        <div id="hero" class="content">
             <div class="heroContent">
                 <div class="image">
                     <img src="unnamed.jpg" alt="">
@@ -41,21 +48,13 @@
         </div>
     </div>
 
-    <div id="aboutContainer">
-        <div class="sidebar">
-            
-            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
-            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
-            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
-            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
-            
-        </div>
+    <div id="aboutContainer" class="container">
 
-        <div id="infoCards">
+        <div id="infoCards" class="content">
             <div id="experiences">
                 <div class="card">
                     <h2>Recent Experiences</h2>
-                    <p>Currently, I am learning ReactJS via Code Path as a student on the Web Development track. Additionally, over the last 2 summers I've had the pleasure of working as a Teaching Assistant at All Star Code. I taught students how to use technologies such as HTML, CSS, JavaScript, NodeJs, FireBase, and Git to build and deploy full stack web applications </p>
+                    <p>Learning React via CodePath. Additionally, over the last 2 summers I've had the pleasure of working as a Teaching Assistant at All Star Code. I taught students how to use technologies such as HTML, CSS, JavaScript, NodeJs, FireBase, and Git to build and deploy full stack web applications </p>
                 </div>
             </div>
             <div id="skills">
@@ -76,48 +75,32 @@
         </div>
     </div>
 
-    <div id="projectsContent">
-        <div class="sidebar">
-            
-            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
-            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
-            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
-            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
-            
-        </div>
+    <div id="projectsContent" class="container">
 
-        <div id="projectsContainer">
+        <div id="projectsContainer" class="content">
           <div class="cardContainer">
             <div class="projectCard">
                 <i class="fa-brands fa-react fa-2xl" style="color: #050505;"></i>
-                <h2>Cat Discovery</h2>
-                <p>Designed and developed a cat discovery application using React and the CatFinder API that lets users discover cats and filter by traits they don't like.</p>
+                <a href="https://get2gether-4a4958b07df7.herokuapp.com/"><h2>Post Hub</h2></a>
+                <p>Post Forum is a React.js-based web application focused on the essential aspects of blog interaction. It allows users to create, read, update, and delete posts in a clean and straightforward interface.</p>
             </div>
             <div class="projectCard">
                 <i class="fa-brands fa-react fa-2xl" style="color: #050505;"></i>
-                <h2>Cluster Analysis</h2>
-                <p>Querried and manipulated a massive carbon emission data set using techonologies such as Python, Sql, Azure, and the Pandas library.</p>
+                <a href="https://6558516b93efb12895fda473--splendorous-elf-426f7b.netlify.app/"><h2>Get2Gether</h2></a>
+                <p>Get2Gether is a Flask-based web application that simplifies the process of discovering, managing, and participating in events. It's designed to provide a user-friendly platform for event enthusiasts, particularly around New York City.</p>
             </div>
             <div class="projectCard">
                 <i class="fa-brands fa-react fa-2xl" style="color: #050505;"></i>
-                <h2>Bionic Sources</h2>
-                <p>Lead four students in developing a web app that tracks COVID-19 stats in all 50 US states using the Covid Act Now REST API in HTML, CSS, and JavaScript. </p>
+               <a href="https://new-york-events-66105853a688.herokuapp.com/"><h2>New York Events API</h2></a>
+                <p>The New York Events API is a Flask-based application that serves as a platform for managing and accessing information about various events happening in New York City. This API allows users to create, retrieve, and manage event details efficiently.</p>
             </div>
           </div>
 
         </div>
     </div>
 
-    <div id="formContainer">
-        <div class="sidebar">
-            
-            <div><a href="#mainContainer"><i class="fa-solid fa-home fa-2xl" style="color: #ffffff;"></i></a></div>
-            <div><a href="#aboutContainer"><i class="fa-regular fa-user fa-2xl" style="color: #ffff;"></i></a></div>
-            <div><a href="#projectsContainer"><i class="fa-solid fa-code fa-2xl" style="color: #ffff;"></i></a></div>
-            <div><a href="#formContainer"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffff"></i></a></div>
-        </div>
-
-        <div id="emailContent">
+    <div id="formContainer"  class="container">
+        <div id="emailContent" class="content">
             <form action="https://formspree.io/f/mnqklboz" method="POST">
                 <h3>Get In Touch!</h3>
                 <input type="email" name="email" placeholder="Your E-mail" required>
