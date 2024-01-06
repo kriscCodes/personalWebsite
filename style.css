@@ -60,6 +60,7 @@ a {
 #Projects {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .project-card {
