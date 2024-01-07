@@ -129,7 +129,7 @@ form button{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
     /* CSS rules for screens that are 375px wide or smaller */
     .mobile-nav {
         /* CSS properties to show the navbar */
