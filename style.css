@@ -123,6 +123,7 @@ form input, form textarea{
 form button{
     padding: 15px;
     color: white;
+    background-color:  #902bf5;
     font-size: 18px;
     border: 0;
     outline: none;
